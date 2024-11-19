@@ -4,7 +4,13 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-homework
+----------------
+Here's some xample code demonstrating how this module is used:
+>>> import wizcoin
+>>> coin = wizcoin.WizCoin(2, 5, 10)
+>>> str(coin)
+'2g, 5s, 10k'
+>>> coin.value()
 
 ## Project Organization
 
